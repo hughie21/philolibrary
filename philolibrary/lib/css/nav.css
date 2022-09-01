@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-direction: border-box;
+	text-decoration: none;
+	font:12px/150% "Microsoft YaHei","宋体",serif ;
+}
+
+body{
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+.bigbox{
+	position: relative;
+	margin-top: 0;
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	line-height: 27px;
+}
+
+.r-nav{
+	margin-top: 2px;
+	text-align: right;
+	margin-right:36px ;
+}
+
+.r-nav a{
+	color: rgb(101,101,101);
+	font-size: 18px;
+	margin-right:10px ;
+}
+
+.r-nav a:hover{
+	color: rgb(211,212,124);
+}

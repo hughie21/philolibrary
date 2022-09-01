@@ -1,0 +1,29 @@
+.l-main{
+    margin: auto;
+    width: 960px;
+}
+
+.grid{
+    border-collapse:collapse ;
+    padding: 3px;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+table.grid caption{
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+table.grid td{
+    background-color: #fff;
+    text-align: left;
+    font: 12px/120% 宋体,Verdana,Arial,sans-serif;
+}

@@ -1,0 +1,87 @@
+<!--
+	*@Author: ChenXi-Guan
+	*@Date: 2022
+	*@LastEditTime:
+	*@LastEditors:
+	*@Description:
+	*FilePath: 
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="wideth = device-wideth", initial-scale=1.0>
+<title>问题反馈</title>
+<link href="../lib/css/nav.css" rel="stylesheet" type="text/css">
+<link href="../lib/css/qmain.css" rel="stylesheet" type="text/css">
+<script>
+function validateForm() {
+    var title = document.forms["frmnmessage"]["title"].value;
+	var text = document.querySelector("textarea");
+    if (title == null || title == "") {
+        alert("请输入标题");
+        return false;
+    }else if (text == null || text == ""){
+		alert("请输入正文内容");
+		return false;
+	}
+}
+</script>
+</head>
+
+<body>
+	<!-- 列表 -->
+	<header class="bigbox">
+		<div class="bigbox r-nav">
+			<a href="../index.html">首页</a>
+			<a href="../s-search.php">高级搜索</a>
+			<a href="../base/question.html">联系管理员</a>
+			<a href="../base/help.html">用户帮助</a>
+			<a href="../base/others.html">其他</a>
+		</div>
+	</header>
+	<!--信息框-->
+	<div class="mainbox">
+		<form id="frmnmessage" name="frmnmessage" action="question.php?do=submit" method="post" onSubmit="return validateForm()">
+			<table class="grid" width="580" cellspacing="1" align="center">
+				<caption>写新消息</caption>
+				<tbody>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%">收件人</td>
+						<td class="re_odd">网站管理员<input type="hidden" name="administer" value ="1"></td>
+					</tr>
+					<tr valign="middle" align="left">
+						<td class= "odd" width="25%">标题</td>
+						<td class="re_odd">
+							<input class="title" type="text" name="title" size="30" maxlength="100" value="">
+						</td>
+					</tr>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%">正文内容</td>
+						<td class="re_odd">
+							<textarea class="textarea" id="textarea" name="content" rows="12" cols="60"></textarea>
+						</td>
+					</tr>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%"></td>
+						<td class ="re_odd">
+							<input type="submit" value="发送" name="submit">
+							<input type="hidden" name="administer" value ="1">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<div class="page">
+		<div class="row-1">
+			<p>管理员邮箱：</p>
+		</div>
+		<div class="row-2">
+			<p>管理员QQ：</p>
+		</div>
+	</div>
+</body>
+</html>

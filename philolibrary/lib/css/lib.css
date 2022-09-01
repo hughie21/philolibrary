@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#page{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header{
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3);
+    margin: auto;
+    width: 85%;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.header .nav{
+    float: right;
+    height: 100%;
+    width: 23%;
+    line-height: 72px;
+    text-align: center;
+}
+
+.nav a{
+    cursor: pointer;
+    color: #9ca8b8;
+    text-decoration: none;
+}
+
+.nav button{
+    background: none;
+    border: none;
+    color: #9ca8b8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav button:hover{
+    color: red;
+}
+
+.nav a:hover{
+    color: red;
+}
+
+.text{
+    max-width: 1073px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #fff;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3);
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 200%;
+}
+
+.content{
+    text-align: left;
+    font-size: 12px;
+    padding: 6px 33px 14px 33px;
+}
+
+.content p{
+    text-indent: 2em;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin: .8em 0;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.footer{
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3);
+    margin: auto;
+    width: 85%;
+    height: 40px;
+    margin-top: 8px;
+    text-align: center;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: #9ca8b8;
+}
+
+.footer a{
+    width: 23.8%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#popup{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    background: #fff;
+    width: 450px;
+    padding: 80px 50px 50px;
+    box-shadow: 0 15px 30px rgba(0,0,0,.8);
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+#popup.active{
+    visibility: visible;
+    top: 50%;
+}
+
+#popup .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#popup h2{
+    font-size: 24px;
+    float: left;
+    font-weight: 500;
+    margin-top: -70px;
+    line-height: 25px;
+    margin-left: -36px;
+}
+
+.select{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.select span{
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.select > select{
+    border: none;
+    font-size: 14px;
+    background: #f4f3f1;
+}
+
+#popup a{
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#popup a:hover{
+    transition: 0.5s;
+    color: rgb(101, 93, 93);
+}

@@ -1,0 +1,51 @@
+<!--
+	*@Author: ChenXi-Guan
+	*@Date: 2022
+	*@LastEditTime:
+	*@LastEditors:
+	*@Description:
+	*FilePath: 
+-->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="wideth = device-wideth", initial-scale=1.0>
+<title>人类哲学书库~中西方哲学</title>
+<link href="./lib/css/nav.css" rel="stylesheet" type="text/css">
+<link href="./lib/css/main.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/0f2d9adef7.js" crossorigin="anonymous"></script>
+<script src=".\lib\js\notnull.js" type="text/javaScript"></script>
+<script>
+	function warn(){
+		alert("该网站仅提供哲学著作的阅读与下载，请勿用作商业用途")
+	}
+</script>
+</head>
+
+<body onLoad="warn()">
+	<!-- 导航栏 -->
+	<header class="bigbox">
+		<div class="bigbox r-nav">
+			<a href="/index.html">首页</a>
+			<a href="s-search.php">高级搜索</a>
+			<a href="./base/question.html">联系管理员</a>
+			<a href="./base/help.html">用户帮助</a>
+			<a href="./base/others.html">其他</a>
+		</div>
+	</header>
+	<!-- 主页搜索框 -->
+	<div class="main">
+		<form  name="form" action="search-r.php" method="post" onsubmit="return validateForm()">
+			<h1>人类哲学书库</h1>
+			<div class="search-box">
+				<input type="text" name="book" class="search-bar" placeholder="书名.." value="">
+				<button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

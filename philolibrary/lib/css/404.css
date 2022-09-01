@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.warning{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+
+p{
+	color: #000000;
+	font-size: 35px;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.return{
+	height: 40px;
+	width: 120px;
+	border: none;
+	color: #000;
+	border-radius: 25px;
+	background: #b5c4b1;
+}
+
+.return:hover{
+	background: #7b8b6f;
+}

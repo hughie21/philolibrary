@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 12px/150% Microsoft YaHei,宋体,serif;
+}
+
+.content{
+    margin-right: auto;
+    margin-left: auto;
+    width: 968px;
+    top: 10%;
+    height: auto;
+}
+
+.cover{
+    height: 100%;
+    width: 308px;
+    margin-left:20px;
+}
+
+.intro{
+    position: absolute;
+    left: 40%;
+    width: 48%;
+    height: 400px;
+    top: 10%;
+}
+
+.intro h2{
+    font-size: 32px;
+    color: #000;
+    font-weight: bolder;
+    max-height: 2.4em;
+    max-width: 620px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.intro .row12{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav strong{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.row21{
+    height: 202px;
+    margin-top: 5px;
+    overflow: auto;
+    text-align: justify;
+}
+
+.btn{
+    display: flex;
+    width: 300px;
+    height: 93px;
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    align-items: center;
+}
+
+.btn .nobn{
+    padding: 10px 4em;
+    border: none;
+    background: #c1cbd7;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.3);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#b2{
+    margin-left: 15px;
+}
+
+.nobn:hover{
+    background-color:#7197c6 ;
+}
+
+.catalog{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 3px;
+    border-top: 1px solid rgb(206, 206, 206) ;
+}
+
+.catalog h2{
+    font-size: 26px;
+    color: #000;
+    font-weight: 400;
+    max-height: 2em;
+    max-width: 200px;
+    padding: 40px 120px;
+}
+
+.divid{
+    border-bottom: 1px solid #000;
+    width: 84%;
+    margin: auto;
+}
+
+.det-nol-rav{
+    margin-bottom: 10px;
+}
+
+.ol{
+    overflow: hidden;
+    position: relative;
+}
+
+.fms{
+    font-size: 16px;
+    max-width: 84%;
+    left: 8%;
+    height: auto;
+}
+
+.fms ol{
+    margin-right: -40px;
+}
+
+ol li{
+    list-style: none;
+}
+
+.det-nol-rav li{
+    line-height: 36px;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #ededed;
+}
+
+.table-row-1 li{
+    float: left;
+    display: inline;
+}
+
+.ele{
+    width: 33%;
+}
+
+.table-row-1 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}

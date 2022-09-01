@@ -1,0 +1,68 @@
+.main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.books{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.books li {
+    padding: 20px 10px;
+    border-bottom: 1px dashed #c6c6c6;
+    background-color: #fff;
+    width: 780px;
+    float: left;
+  }
+
+.img{
+    width: 120px;
+    height: 150px;
+    display: block;
+    padding: 3px;
+    float: left;
+}
+
+.b-scan{
+    width: 630px;
+    float: left;
+    margin-left: 20px;
+    display: inline;
+}
+
+.b-scan h3{
+    line-height: 30px;
+    float: left;
+}
+
+.b-scan .auth{
+    float: left;
+    margin-left: 20px;
+    color: rbg(218,218,216);
+    line-height: 30px;
+}
+
+.b-intro{
+    width: 630px;
+    float: left;
+    height: 55px;
+    overflow: hidden;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.b-info{
+    width: 630px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.read{
+    float: left;
+}

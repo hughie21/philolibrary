@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../lib/css/lib.css" rel="stylesheet" type="text/css">
+    <script src="../lib/js/lib.js" type="text/javaScript"></script>
+    <title>书名-作者名-人类哲学书库</title>
+</head>
+<body id="page" style="background:url(../lib/resource/picture/304926843.jpg) ;font:12px/150% Microsoft YaHei,宋体,serif;">
+    <div id="popup">
+        <h2>设置</h2>
+        <div class="content">
+            <div class="select">
+            <span>背景颜色</span>
+            <select name="b-color" id="b-color" onchange="backgroundChang()">
+                <option value="1">默认</option>
+                <option value="2">白色</option>
+                <option value="3">黑色</option>
+                <option value="4">淡蓝色</option>
+            </select>
+            <span>字体大小</span>
+            <select name="f-size" id="f-size" onchange="ChangeFontSize()">
+                <option value="1">12</option>
+                <option value="2">14</option>
+                <option value="3">16</option>
+                <option value="4">18</option>
+                <option value="5">20</option>
+                <option value="6">24</option>
+            </select>
+            <span>字体颜色</span>
+            <select name="f-color" id="f-color" onchange="ChangeFontColor()">
+                <option value="1">黑色</option>
+                <option value="2">白色</option>
+                <option value="3">蓝色</option>
+                <option value="4">红色</option>
+                <option value="5">绿色</option>
+            </select>
+            </div>
+        </div>
+        <a onclick="popupToggle();">确定</a>
+    </div>
+    <div class="header">
+        <div class="nav">
+            <button href="" target="_blank" onclick="popupToggle();">阅读设置</button>
+            |
+            <a href="" target="_blank">添加书签</a>
+            |
+            <a href="" target="_blank">返回目录</a>
+            |
+            <a href="" target="_blank">内容报错</a>
+            |
+        </div>
+    </div>
+    <div class="text" id="con" style="color: #000;">
+        <div class="title">第三章 社会主义的和共产主义的文献</div>
+        <div class="content" id="txt" style="font:14px/150% Microsoft YaHei,宋体,serif;">
+            <p>1．反动的社会主义</p>
+            <p>（甲）封建的社会主义</p>
+            <p>法国和英国的贵族，按照他们的历史地位所负的使命，就是写一些抨击现代资产阶级社会的作品。在法国的1830年七月革命和英国的改革运动中，他们再一次被可恨的暴发户打败了。从此就再谈不上严重的政治斗争了。他们还能进行的只是文字斗争。但是，即使在文字方面也不可能重弹复辟时期的老调了。为了激起同情，贵族们不得不装模做样，似乎他们已经不关心自身的利益，只是为了被剥削的工人阶级的利益才去写对资产阶级的控诉书。他们用来泄愤的手段是：唱唱诅咒他们的新统治者的歌，并向他叽叽咕咕地说一些或多或少凶险的预言。</p>
+            <p>这样就产生了封建的社会主义，半是挽歌，半是谤文；半是过去的回音，半是未来的恫吓；它有时也能用辛辣、俏皮而尖刻的评论刺中资产阶级的心，但是它由于完全不能理解现代历史的进程而总是令人感到可笑。</p>
+            <p>为了拉拢人民，贵族们把无产阶级的乞食袋当做旗帜来挥舞。但是，每当人民跟着他们走的时候，都发现他们的臀部带有旧的封建纹章，于是就哈哈大笑，一哄而散。</p>
+            <p>一部分法国正统派和“青年英国”，都演过这出戏。</p>
+            <p>封建主说，他们的剥削方式和资产阶级的剥削不同，那他们只是忘记了，他们是在完全不同的、目前已经过时的情况和条件下进行剥削的。他们说，在他们的统治下并没有出现过现代的无产阶级，那他们只是忘记了，现代的资产阶级正是他们的社会制度的必然产物。</p>
+            <p>不过，他们毫不掩饰自己的批评的反动性质，他们控告资产阶级的主要罪状正是在于：在资产阶级的统治下有一个将把整个旧社会制度炸毁的阶级发展起来。</p>
+            <p>他们责备资产阶级，与其说是因为它产生了无产阶级，不如说是因为它产生了革命的无产阶级。</p>
+            <p>因此，在政治实践中，他们参与对工人阶级采取的一切暴力措施，在日常生活中，他们违背自己的那一套冠冕堂皇的言词，屈尊拾取金苹果，不顾信义、仁爱和名誉去做羊毛、甜菜和烧酒的买卖。</p>
+            <p>正如僧侣总是同封建主携手同行一样，僧侣的社会主义也总是同封建的社会主义携手同行的。</p>
+            <p>要给基督教禁欲主义涂上一层社会主义的色彩，是再容易不过了。基督教不是也激烈反对私有制，反对婚姻，反对国家吗？它不是提倡用行善和求乞、独身和禁欲、修道和礼拜来代替这一切吗？基督教的社会主义，只不过是僧侣用来使贵族的怨愤神圣化的圣水罢了。</p>
+            <p>（乙）小资产阶级的社会主义</p>
+            <p>（丙）德国的或“真正的”社会主义</p>
+            <p>2.保守的或资产阶级的社会主义</p>
+            <p>资产阶级中的一部分人想要消除社会的弊病，以便保障资产阶级社会的生存。</p>
+            <p>资产阶级的社会主义就是这样一个论断：资产者之为资产者，是为了工人阶级的利益。</p>
+            <p>3.批判的空想的社会主义和共产主义</p>
+            <p>在这里，我们不谈在现代一切大革命中表达过无产阶级要求的文献（巴贝夫等人的著作）。</p>
+            <p>因此，他们激烈地反对工人的一切政治运动，认为这种运动只是由于盲目地不相信新福音才发生的。</p>
+            <p>在英国，有欧文主义者反对宪章派，在法国，有傅立叶主义者反对改革派。</p>
+        </div>
+    </div>
+    <p class="footer">
+        <a href="./A1&23&1264page=2.html">上一页</a>
+        <a href="../intro/0002.html">返回目录</a>
+        <a href="">添加书签</a>
+        <a href=".A1&23&1264page=4.html">下一页</a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <javaScript src="./assets/js/cc.js" type="text/javaScript"></javaScript>
+    <title>后台管理系统-数据库</title>
+</head>
+<body onload="cleanOut()">
+<div class="header">
+    <span>后台管理系统1.0</span>
+</div>
+<div class="main">
+    <!--主页面-->
+    <div class="containers">
+        <form method="post" class="formationlist">
+            书名
+            <input type="text" class="barcharge" id="bar" name="bname">
+            作者名
+            <input type="text" class="barcharge" id="bar" name="aname">
+            封面图片地址
+            <input type="text" class="barcharge" id="bar" name="imgurl">
+            地址
+            <input type="text" class="barcharge" id="bar" name="url">
+            简介
+            <input type="text" class="barcharge" id="bar" name="intro">
+            字数
+            <input type="text" class="barcharge" id="bar" name="num">
+            语言
+            <input type="text" class="barcharge" id="bar" name="lang">
+            类别
+            <input type="text" class="barcharge" id="bar" name="type">
+            <button class="btn" formaction="/showdatabase.php" formmethod="post">请求数据库</button>
+            <button class="btn" formaction="/database.php" formmethod="post" type="submit">提交数据</button>
+            <button class="btn" formaction="/deldatabase.php" formmethod="post" type="submit">删除数据栏</button>
+        </form>
+    </div>
+        <!--导航-->
+        <div class="bs-example" data-example-id="simple-nav-stacked">
+            <ul class="nav nav-pills nav-stacked nav-pills-stacked-example">
+              <li role="presentation"><a href="index.html">主页</a></li>
+              <li role="presentation"  class="active"><a href="database.html">数据库</a></li>
+              <li role="presentation"><a href="infro.html">信息</a></li>
+              <li role="presentation"><a href="other.html">其他</a></li>
+            </ul>   
+        </div>
+</div>
+</body>
+</html>
